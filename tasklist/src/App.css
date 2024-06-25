@@ -1,38 +1,49 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  color: rgb(36, 37, 58);
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
   text-align: center;
+  margin: 20px 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body {
+  color: rgb(0, 0, 0);
+  background-color: rgb(149, 216, 255);
+  font-family: Lato, sans-serif;
+  margin-top: 40px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.task-manager {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* Change from flex-wrap to flex-direction: column */
+  align-items: center;
+}
+
+.logo-container {
+  width: 30%; /* Make the logo container full-width */
+  margin: 20px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: white;
+  border-radius: 50px;
 }
-
-.App-link {
-  color: #61dafb;
+.logo {
+  width: 400px;
+  height: auto;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-task-list {
+  width: 30%; /* Make the task list full-width */
+  min-height: 500px;
+  background-color: beige;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 26px;
+  box-shadow: 0 0 20px rgb(116, 195, 241)
 }
