@@ -26,3 +26,9 @@
   height: 25px;
   margin: 5px;
 }
+
+.task-cont.completed {
+  background-color: rgb(80, 255, 89);
+  text-decoration: line-through;
+  color: rgb(58, 57, 57);
+}

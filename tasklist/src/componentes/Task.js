@@ -4,7 +4,7 @@ import { FaTrashCan } from "react-icons/fa6";
 
 function Task ( { text, completed}) {
   return (
-    <div className={completed ? "task-cont completed-task"}>
+    <div className={completed ? "task-cont completed": "task-cont"}>
       <div className="task-text">
         {text}
       </div>

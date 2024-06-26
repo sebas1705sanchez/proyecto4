@@ -26,7 +26,7 @@ body {
 }
 
 .logo-container {
-  width: 30%; /* Make the logo container full-width */
+  width: 60%; /* Make the logo container full-width */
   margin: 20px;
   display: flex;
   align-items: center;
@@ -39,7 +39,7 @@ body {
   height: auto;
 }
 .main-task-list {
-  width: 30%; /* Make the task list full-width */
+  width: 60%; /* Make the task list full-width */
   min-height: 500px;
   background-color: beige;
   padding: 25px;
