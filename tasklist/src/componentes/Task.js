@@ -2,13 +2,17 @@ import React from "react";
 import "../style-sheet/task.css"
 import { FaTrashCan } from "react-icons/fa6";
 
-function Task ( { text, completed}) {
+function Task ( { id, text, completed, completeTask, deleteTask }) {
   return (
     <div className={completed ? "task-cont completed": "task-cont"}>
-      <div className="task-text">
+      <div
+      onClick={() => completeTask(id)} 
+      className="task-text">
         {text}
       </div>
-      <div className="icon-task-cont">
+      <div 
+      onClick={() => deleteTask(id)}
+      className="icon-task-cont">
         <FaTrashCan className="icon-task" color="dark-blue"/>
       </div>
     </div>

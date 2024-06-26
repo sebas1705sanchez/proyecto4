@@ -32,3 +32,15 @@
   text-decoration: line-through;
   color: rgb(58, 57, 57);
 }
+.task-cont:nth-child(3n + 1) {
+  background-color: #ffffff;
+}
+
+.task-cont:nth-child(3n + 2) {
+  background-color: #d1fdff;
+
+}
+
+.task-cont:nth-child(3n + 3) {
+  background-color: #b4e0ff;
+}

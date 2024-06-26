@@ -1,7 +1,7 @@
 //import React from "react";
 import logo from './imagenes/logo.webp'
 import './App.css';
-import Task from './componentes/Task.js';
+import ListTasks from './componentes/ListTasks';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       </div>
       <div className='main-task-list'>
         <h1>My tasks</h1>
-        <Task text="Divide the work"/>
+        <ListTasks/>
       </div>
     </div>
   );
