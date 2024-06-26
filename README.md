@@ -1,3 +1,3 @@
-To use this projecto you have to follow the next steps:
+To use this project you have to follow the next steps:
 
 - `npm install`
