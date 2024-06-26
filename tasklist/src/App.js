@@ -2,6 +2,7 @@
 import logo from './imagenes/logo.webp'
 import './App.css';
 import ListTasks from './componentes/ListTasks';
+//import ButtonCont from './componentes/ButtonCont';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       </div>
       <div className='main-task-list'>
         <h1>My tasks</h1>
+        {/* <ButtonCont/> */}
         <ListTasks/>
       </div>
     </div>
